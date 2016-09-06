@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/tv_friend"
+android:paddingLeft="10dp"
+        android:drawableLeft="@drawable/changecolor"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent" />
+    <Spinner
+        android:gravity="center_horizontal"
+        android:id="@+id/spinner"
+        android:entries="@array/spinner"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+
+    </Spinner>
+   <TextView
+       android:paddingRight="10dp"
+       android:id="@+id/tv_jz"
+       android:drawableRight="@drawable/changecolor2"
+       android:layout_width="0dp"
+       android:layout_weight="1"
+       android:layout_height="match_parent" />
+</LinearLayout>
+    <EditText
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:drawableLeft="@drawable/searchbar_searchlist_search_icon"
+        android:hint="大家正在搜："
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <in.srain.cube.views.ptr.PtrFrameLayout
+        android:id="@+id/store_house_ptr_frame"
+        xmlns:cube_ptr="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        cube_ptr:ptr_resistance="1.7"
+        cube_ptr:ptr_ratio_of_header_height_to_refresh="2.0"
+        cube_ptr:ptr_duration_to_close="300"
+        cube_ptr:ptr_duration_to_close_header="2000"
+        cube_ptr:ptr_keep_header_when_refresh="true"
+        cube_ptr:ptr_pull_to_fresh="false" >
+
+    <ListView
+        android:padding="10dp"
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+    </in.srain.cube.views.ptr.PtrFrameLayout>
+
+
+    </LinearLayout>

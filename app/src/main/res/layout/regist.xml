@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/tv_cancel"
+        android:text="取消"
+        android:padding="10dp"
+        android:textSize="15sp"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent" />
+    <TextView
+        android:text="注册"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent" />
+    <TextView
+
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent" />
+</LinearLayout>
+    <LinearLayout
+
+        android:background="#F4F4F4"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:background="#ffffff"
+            android:id="@+id/et_name"
+            android:padding="15dp"
+            android:layout_marginTop="10dp"
+            android:hint="请输入邮箱/手机号"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:background="#ffffff"
+            android:id="@+id/et_word"
+            android:padding="15dp"
+            android:hint="请输入密码"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:background="#ffffff"
+            android:id="@+id/et_words"
+            android:padding="15dp"
+            android:hint="请确认密码"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:background="#F4F4F4"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/bt_regist"
+           android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="注册"
+            android:background="#EE7621"
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="注册表示你同意微博服务使用协议和隐私条款"
+           android:paddingLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:textSize="15sp"
+            android:textColor="#6A5ACD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <CheckBox
+            android:padding="10dp"
+            android:textColor="#6A5ACD"
+            android:text="通过通讯录找到正在玩微博的朋友"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/tv_group"
+        android:text="发现群"
+        android:paddingLeft="10dp"
+        android:gravity="center_vertical"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent" />
+    <TextView
+        android:text="消息"
+        android:gravity="center"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent" />
+    <TextView
+        android:id="@+id/tv_chat"
+        android:paddingRight="10dp"
+        android:drawableRight="@drawable/changecolor1"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent" />
+</LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:hint="搜索联系人和群"
+                android:drawableLeft="@drawable/searchbar_searchlist_search_icon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:padding="10dp"
+                android:drawablePadding="15dp"
+                android:drawableLeft="@drawable/messagescenter_at"
+                android:gravity="center_vertical"
+                android:text="我的"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:padding="10dp"
+                android:drawablePadding="15dp"
+                android:drawableLeft="@drawable/messagescenter_comments"
+                android:gravity="center_vertical"
+                android:text="评论"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:padding="10dp"
+                android:drawablePadding="15dp"
+                android:drawableLeft="@drawable/messagescenter_good"
+                android:gravity="center_vertical"
+                android:text="赞"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:padding="10dp"
+                android:drawablePadding="15dp"
+                android:drawableLeft="@drawable/messagescenter_messagebox"
+                android:gravity="center_vertical"
+                android:text="未关注人消息"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:padding="10dp"
+                android:drawablePadding="15dp"
+                android:drawableLeft="@drawable/messagescenter_subscription"
+                android:gravity="center_vertical"
+                android:text="订阅消息"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:padding="10dp"
+                android:drawablePadding="15dp"
+                android:drawableLeft="@drawable/messagescenter_messagebox"
+                android:gravity="center_vertical"
+                android:text="未关注人消息"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:padding="10dp"
+                android:drawablePadding="15dp"
+                android:drawableLeft="@drawable/messagescenter_messagebox"
+                android:gravity="center_vertical"
+                android:text="未关注人消息"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:padding="10dp"
+                android:drawablePadding="15dp"
+                android:drawableLeft="@drawable/messagescenter_messagebox"
+                android:gravity="center_vertical"
+                android:text="未关注人消息"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

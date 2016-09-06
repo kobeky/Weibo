@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+    android:background="#ffffff"
+    android:id="@+id/rl1"
+android:paddingTop="40dp"
+    android:paddingLeft="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/tv_day"
+        android:text="25"
+        android:textSize="50sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_date"
+        android:paddingTop="10dp"
+        android:layout_toRightOf="@+id/tv_day"
+        android:text="星期四\n\n08/2016"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_below="@id/tv_day"
+        android:text="武汉：多云 32°C"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
+<LinearLayout
+    android:background="#ffffff"
+    android:id="@+id/ll1"
+    android:layout_below="@+id/rl1"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:paddingTop="60dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/tv_write"
+        android:text="文字"
+        android:gravity="center"
+        android:drawableTop="@drawable/tabbar_compose_idea"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="图片/视频"
+        android:gravity="center"
+        android:drawableTop="@drawable/tabbar_compose_photo"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="头条文章"
+        android:gravity="center"
+        android:drawableTop="@drawable/tabbar_compose_headlines"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+    <LinearLayout
+        android:background="#ffffff"
+        android:layout_below="@+id/ll1"
+        android:paddingTop="20dp"
+        android:paddingRight="15dp"
+        android:paddingLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="签到"
+            android:gravity="center"
+            android:drawableTop="@drawable/tabbar_compose_lbs"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="直播"
+            android:gravity="center"
+            android:drawableTop="@drawable/tabbar_compose_shooting"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="更多"
+            android:gravity="center"
+            android:drawableTop="@drawable/tabbar_compose_more"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <ImageButton
+        android:background="#ffffff"
+        android:id="@+id/ib_delete"
+        android:src="@drawable/camera_edit_cross_highlighted"
+       android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

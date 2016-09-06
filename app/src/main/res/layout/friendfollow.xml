@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_back"
+            android:paddingLeft="10dp"
+            android:drawableLeft="@drawable/navigationbar_back"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="好友关注动态"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+        <TextView
+            android:id="@+id/tv_more"
+            android:paddingRight="10dp"
+            android:drawableRight="@drawable/navigationbar_more"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <TextView
+        android:background="#ffffff"
+        android:drawableRight="@drawable/detail_wares_icon_more"
+        android:padding="10dp"
+        android:text="大家都在搜"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <RelativeLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:id="@+id/iv_groups"
+            android:src="@drawable/tx3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/tv_friends"
+            android:layout_toRightOf="@+id/iv_groups"
+            android:text="胡歌"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv_js"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/tv_friends"
+            android:layout_toRightOf="@+id/iv_groups"
+            android:text="知名演员，《仙剑奇侠传》系列男主角"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/tv_js"
+            android:layout_toRightOf="@+id/iv_groups"
+            android:text="大家好，我是胡歌，谢谢大家支持我的新作品，我回继续加油的。"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/iv_follow1"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/f_hufen"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:id="@+id/iv_groups1"
+            android:src="@drawable/tx1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/tv_friends1"
+            android:layout_toRightOf="@+id/iv_groups1"
+            android:text="刘亦菲"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv_js1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/tv_friends1"
+            android:layout_toRightOf="@+id/iv_groups1"
+            android:text="知名演员，《仙剑奇侠传》女主角"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/tv_js1"
+            android:layout_toRightOf="@+id/iv_groups1"
+            android:text="大家好，我是刘亦菲，谢谢大家支持我的新作品，我回继续加油的。"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/f_hufen"
+            android:id="@+id/iv_follow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:id="@+id/iv_groups2"
+            android:src="@drawable/tx1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/tv_friends2"
+            android:layout_toRightOf="@+id/iv_groups2"
+            android:text="唐嫣"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv_js2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/tv_friends2"
+            android:layout_toRightOf="@+id/iv_groups2"
+            android:text="知名演员，《仙剑奇侠传》女主角"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/tv_js2"
+            android:layout_toRightOf="@+id/iv_groups2"
+            android:text="大家好，我是唐嫣，谢谢大家支持我的新作品，我回继续加油的。"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/f_hufen"
+            android:id="@+id/iv_follow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+</LinearLayout>

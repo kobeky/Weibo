@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#FFFAFA"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:background="#ffffff"
+    android:padding="10dp"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<TextView
+    android:textSize="20sp"
+    android:text="添加好友"
+android:id="@+id/tv_add"
+    android:layout_width="0dp"
+    android:layout_weight="1"
+    android:layout_height="wrap_content" />
+    <TextView
+        android:textSize="20sp"
+        android:text="我"
+        android:gravity="center"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textSize="20sp"
+        android:id="@+id/tv_set"
+        android:text="设置"
+        android:gravity="end"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:background="#F4F4F4"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+<RelativeLayout
+    android:layout_marginTop="15dp"
+    android:background="#ffffff"
+    android:paddingTop="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:paddingLeft="10dp"
+        android:id="@+id/iv_tx"
+        android:src="@drawable/tx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_toRightOf="@+id/iv_tx"
+        android:text="kobekyky"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_toRightOf="@+id/iv_tx"
+        android:layout_below="@+id/tv_name"
+        android:text="简介：单身狗"
+        android:paddingLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_alignParentEnd="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/vip1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="会员"
+            android:padding="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</RelativeLayout>
+    <LinearLayout
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="100\n微博"
+            android:gravity="center"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="100\n关注"
+            android:gravity="center"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="100\n粉丝"
+            android:gravity="center"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+           <TextView
+               android:background="#ffffff"
+               android:drawableRight="@drawable/common_icon_arrow_highlighted"
+               android:layout_marginTop="20dp"
+               android:text="新的好友"
+               android:layout_width="match_parent"
+               android:paddingLeft="10dp"
+               android:drawablePadding="20dp"
+               android:drawableLeft="@drawable/page_icon_like"
+               android:gravity="center_vertical"
+               android:layout_height="40dp" />
+            <TextView
+                android:background="#ffffff"
+                android:drawableRight="@drawable/common_icon_arrow_highlighted"
+                android:text="微博等级"
+                android:layout_width="match_parent"
+                android:paddingLeft="10dp"
+                android:drawablePadding="20dp"
+                android:drawableLeft="@drawable/page_icon_like"
+                android:gravity="center_vertical"
+                android:layout_height="40dp" />
+            <TextView
+                android:background="#ffffff"
+                android:layout_marginTop="20dp"
+                android:text="我的相册"
+                android:drawableRight="@drawable/common_icon_arrow_highlighted"
+                android:layout_width="match_parent"
+                android:paddingLeft="10dp"
+                android:drawablePadding="20dp"
+                android:drawableLeft="@drawable/page_icon_like"
+                android:gravity="center_vertical"
+                android:layout_height="40dp" />
+            <TextView
+                android:background="#ffffff"
+                android:text="我的点评"
+                android:drawableRight="@drawable/common_icon_arrow_highlighted"
+                android:layout_width="match_parent"
+                android:paddingLeft="10dp"
+                android:drawablePadding="20dp"
+                android:drawableLeft="@drawable/page_icon_like"
+                android:gravity="center_vertical"
+                android:layout_height="40dp" />
+            <TextView
+                android:drawableRight="@drawable/common_icon_arrow_highlighted"
+                android:text="我的赞"
+                android:background="#ffffff"
+                android:layout_width="match_parent"
+                android:paddingLeft="10dp"
+                android:drawablePadding="20dp"
+                android:drawableLeft="@drawable/page_icon_like"
+                android:gravity="center_vertical"
+                android:layout_height="40dp"/>
+            <TextView
+                android:background="#ffffff"
+                android:layout_marginTop="20dp"
+                android:text="微博支付"
+                android:drawableRight="@drawable/common_icon_arrow_highlighted"
+                android:layout_width="match_parent"
+                android:paddingLeft="10dp"
+                android:drawablePadding="20dp"
+                android:drawableLeft="@drawable/page_icon_like"
+                android:gravity="center_vertical"
+                android:layout_height="40dp" />
+            <TextView
+                android:background="#ffffff"
+                android:text="微博运动"
+                android:drawableRight="@drawable/common_icon_arrow_highlighted"
+                android:layout_width="match_parent"
+                android:paddingLeft="10dp"
+                android:drawablePadding="20dp"
+                android:drawableLeft="@drawable/page_icon_like"
+                android:gravity="center_vertical"
+                android:layout_height="40dp" />
+            <TextView
+                android:background="#ffffff"
+                android:layout_marginTop="20dp"
+                android:text="粉丝头条"
+                android:drawableRight="@drawable/common_icon_arrow_highlighted"
+                android:layout_width="match_parent"
+                android:paddingLeft="10dp"
+                android:drawablePadding="20dp"
+                android:drawableLeft="@drawable/page_icon_like"
+                android:gravity="center_vertical"
+                android:layout_height="40dp" />
+            <TextView
+                android:background="#ffffff"
+                android:text="粉丝服务"
+                android:drawableRight="@drawable/common_icon_arrow_highlighted"
+                android:layout_width="match_parent"
+                android:paddingLeft="10dp"
+                android:drawablePadding="20dp"
+                android:drawableLeft="@drawable/page_icon_like"
+                android:gravity="center_vertical"
+                android:layout_height="40dp" />
+            <TextView
+                android:background="#ffffff"
+                android:layout_marginTop="20dp"
+                android:text="草稿箱"
+                android:drawableRight="@drawable/common_icon_arrow_highlighted"
+                android:layout_width="match_parent"
+                android:paddingLeft="10dp"
+                android:drawablePadding="20dp"
+                android:drawableLeft="@drawable/page_icon_like"
+                android:gravity="center_vertical"
+                android:layout_height="40dp" />
+            <TextView
+                android:background="#ffffff"
+                android:layout_marginTop="20dp"
+                android:text="更多"
+                android:drawableRight="@drawable/common_icon_arrow_highlighted"
+                android:layout_width="match_parent"
+                android:paddingLeft="10dp"
+                android:drawablePadding="20dp"
+                android:drawableLeft="@drawable/page_icon_like"
+                android:gravity="center_vertical"
+                android:layout_height="40dp"  />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
